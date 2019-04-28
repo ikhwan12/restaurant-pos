@@ -1,0 +1,134 @@
+ #addUserForm .selectContainer .form-control-feedback {
+        /* Adjust feedback icon position */
+        right: -15px;
+    }
+    #addUserForm .selectContainer2 .form-control-feedback {
+        /* Adjust feedback icon position */
+        right: -30px;
+    }
+    .table-overflow{
+        overflow-x: scroll;
+    }
+    .content-header{
+        margin-top: 50px;
+    }
+    .user-image{
+        z-index: 5;
+        height: 90px;
+        width: 90px;
+        border: 3px solid;
+        border-color: transparent;
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    .row.no-gutter {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .row.no-gutter [class*='col-']:not(:first-child),
+      .row.no-gutter [class*='col-']:not(:last-child) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      #menu tr{
+          height: 50px;
+      } 
+      #kategori tr{
+          height: 40px;
+      } 
+      .my-box{
+            border-top-left-radius: 2px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 2px;
+            display: block;
+            float: left;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            font-size: 22px;
+            line-height: 50px;
+            background: rgba(0, 0, 0, 0.2);
+      }
+      
+.trans{
+        
+        border: 0px solid #000\9;
+        -webkit-transition: border 0s ease-in; /* Safari */
+        transition: border 0s ease-in;
+       
+    }
+.trans:hover{
+    border: 5px solid yellow;
+}
+    
+.olay{
+    z-index: 50;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.7);
+}
+    
+ .loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 51;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}    
+
+.calcs {
+    height: 100%;
+    font-size: 2em;
+    padding: 0 10px 0 10px;
+    margin-bottom: 5px;
+  }
+  .ft-bg div button{
+      font-size: 2em;
+  }
+  .gly-rotate-90 {
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: inline-block;
+}
+
+  .ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    font-size: 12px;
+    
+  }
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+  * html .ui-autocomplete {
+    height: 100px;
+  }
